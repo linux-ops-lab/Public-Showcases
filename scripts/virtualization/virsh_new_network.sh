@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#Skript um ein neues virsh Netzwerk hinzuzufügen und der dazugehören VM ein neues Interface anzuhängen
+#Creates a new libvirt NAT network from a sanitized XML template, lets the operator review the generated definition, 
+#and then defines and starts the network via virsh.
 
 clear
 
