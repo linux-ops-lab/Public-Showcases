@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #Script to add Cloudflare IPs automated without user interaction to firewalld's ipset
+#This only works for existing firewalld ipsets.
+#For custom ipsets, the following ipset variables must be adjusted.
 
 ipset4="cloudflare4"
 ipset6="cloudflare6"
